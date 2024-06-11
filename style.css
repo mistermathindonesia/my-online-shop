@@ -1,0 +1,43 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+
+nav div img {
+  width: 50px;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: rgba(211, 211, 211, 0.104);
+  color: lightseagreen;
+  transition: color 0.5s, background-color 0.5s;
+}
+nav ul li a:hover {
+  color: white;
+  background-color: lightseagreen;
+}
